@@ -4,19 +4,19 @@ public class Recap {
 
     public static void main(String[] args) {
 
-        int number = 0;
+        int digit = 0;
 
-        while (number < 15) {
-            number++;
+        while (true) {
+            digit++;
 
-            if (number <= 5) {
-                System.out.println("Skipping " + number);
+            if (digit <= 5) {
+                System.out.println("Skipping " + digit);
                 continue;
             }
-            System.out.println("number = " + number);
+            System.out.println("number = " + digit);
 
-            if (number >= 10) {
-                System.out.println("Breaking at " + number);
+            if (digit >= 10) {
+                System.out.println("Breaking at " + digit);
                 break;
             }
 

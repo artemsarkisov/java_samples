@@ -3,7 +3,7 @@ package com.company;
 public class LeapYear {
 
     public static void main(String[] args) {
-        System.out.println(getDaysInMonth(11, 2020));
+        System.out.println(getDaysInMonth(11, 2021));
     }
 
     public static boolean isLeapYear(int year) {

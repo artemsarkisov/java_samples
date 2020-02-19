@@ -42,4 +42,10 @@ public class VipCustomer {
     public void setCreditLimit(double creditLimit) {
         this.creditLimit = creditLimit;
     }
+
+
+    public static void main(String[] args) {
+        VipCustomer customer = new VipCustomer();
+        System.out.println(customer.creditLimit);
+    }
 }

@@ -7,6 +7,28 @@ public class BankAccount {
     private String name;
     private String email;
     private int phoneNumber;
+    private String address;
+    private int postalCode;
+    private String city;
+    private String state;
+    private String country;
+    private int taxId;
+    private int creditRating;
+
+    public BankAccount(int accountNumber, int balance, String name, String email, int phoneNumber, String address, int postalCode, String city, String state, String country, int taxId, int creditRating) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.name = name;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+        this.address = address;
+        this.postalCode = postalCode;
+        this.city = city;
+        this.state = state;
+        this.country = country;
+        this.taxId = taxId;
+        this.creditRating = creditRating;
+    }
 
     public BankAccount(int accountNumber, int balance, String name, String email, int phoneNumber) {
         this.accountNumber = accountNumber;
@@ -18,8 +40,6 @@ public class BankAccount {
 
     public BankAccount() {
     }
-
-    ;
 
     public void setAccountNumber(int accountNumber) {
         this.accountNumber = accountNumber;
